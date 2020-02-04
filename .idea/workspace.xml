@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8f6f649-5583-43d9-8779-de2fe98ade0d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XD4A0wbQT6nKJl9TuyoAk0zVwA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/original_data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/original_data" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/trained_models" />
+      <recent name="$PROJECT_DIR$/data/w2v" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f6f649-5583-43d9-8779-de2fe98ade0d" name="Default Changelist" comment="" />
+      <created>1580567183771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580567183771</updated>
+      <workItem from="1580567194571" duration="70000" />
+      <workItem from="1580567275354" duration="18168000" />
+      <workItem from="1580653277386" duration="3867000" />
+      <workItem from="1580664437629" duration="5249000" />
+      <workItem from="1580741831056" duration="15864000" />
+      <workItem from="1580809523368" duration="4977000" />
+      <workItem from="1580818858796" duration="1260000" />
+      <workItem from="1580842428965" duration="2542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580816785489">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1580816785489" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1580567531865">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1580567531865" />
+    <state x="655" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1580842429260">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="655" y="367" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1580842429260" />
+  </component>
+</project>
