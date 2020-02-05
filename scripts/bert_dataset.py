@@ -70,7 +70,10 @@ class BinaryClassificationProcessor(DataProcessor):
 
     def get_labels(self):
         """See base class."""
-        return ["0", "1"]
+        temp = []
+        for i in list(range(19)):
+            temp.append(str(i))
+        return temp
 
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
@@ -114,6 +117,8 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
 def convert_example_to_feature(example_row):
     # return example_row
     example, label_map, max_seq_length, tokenizer, output_mode = example_row
+
+    # print(label_map)
 
     tokens_a = tokenizer.tokenize(example.text_a)
 

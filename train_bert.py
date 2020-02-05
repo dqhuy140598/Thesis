@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # The input data dir. Should contain the .tsv files (or other data files) for the task.
-DATA_DIR = "data/bert_data/"
+DATA_DIR = "data/bert_data/Semeval_8/"
 
 # Bert pre-trained model selected in the list: bert-base-uncased,
 # bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased,
@@ -141,7 +141,7 @@ if __name__ ==  '__main__':
     for _ in trange(int(NUM_TRAIN_EPOCHS), desc="Epoch"):
         tr_loss = 0
         nb_tr_examples, nb_tr_steps = 0, 0
-        for step, batch in enumerate(tqdm_notebook(train_dataloader, desc="Iteration")):
+        for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
             batch = tuple(t.to(device) for t in batch)
             input_ids, input_mask, segment_ids, label_ids = batch
 
@@ -178,4 +178,3 @@ if __name__ ==  '__main__':
     torch.save(model_to_save.state_dict(), output_model_file)
     model_to_save.config.to_json_file(output_config_file)
     tokenizer.save_vocabulary(OUTPUT_DIR)
-
